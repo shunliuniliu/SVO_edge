@@ -1,0 +1,25 @@
+1. 先到/home/poiwu/repo/repo1/SVO_edge/Thirdparty/opencv-2.4.13/ (目標修正cmakelist)
+
+		a. cmake-gui
+
+		b. where is source code : /home/poiwu/repo/repo1/SVO_edge/Thirdparty/opencv-2.4.13
+
+		c. where to build thr binaries : /home/poiwu/repo/repo1/SVO_edge/Thirdparty/opencv-2.4.13/build
+
+		d.Configure :: 把一些不需要的比如 cuda 取消
+
+		e. Generate 
+
+
+
+2. 操作完1; 回到SVO_edge路徑下執行./build.sh
+3. 安裝完opencv
+4. 回SVO_edge路徑下執行 mkdir build
+5. cd build
+6. cmake ..
+7. make -j6
+8. 執行擋在在VO_edge/test中
+	ex: test_pipel_euroc.cpp 內的對應dataset的路徑要改
+9.進入VO_edge路徑bin執行
+
+
