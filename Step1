@@ -23,3 +23,31 @@
 9.進入VO_edge路徑bin執行
 
 
+
+nstall（ubuntu）
+安装依赖项
+boost - c++ Librairies (thread and system are needed)
+
+sudo apt-get install libboost-all-dev
+
+Eigen 3 - Linear algebra
+
+apt-get install libeigen3-dev
+
+Sophus - Lie groups
+
+cd workspace
+
+git clone https://github.com/strasdat/Sophus.git
+
+cd Sophus
+
+git checkout a621ff
+
+mkdir build
+
+cd build
+
+cmake ..
+
+make

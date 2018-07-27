@@ -1,5 +1,5 @@
 
-cd Thirdparty/sophus
+cd Thirdparty/Sophus
 mkdir build
 cd build
 cmake ..
@@ -11,6 +11,10 @@ cd build
 cmake ..
 make -j4
 
+###1. 看readme 安裝Sophus
+
+
+##2.安裝openCV
 
 #cd ../../opencv-2.4.13/
 #mkdir build
@@ -18,3 +22,4 @@ make -j4
 #cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/Thirdparty/opencv-2.4.13
 #make -j6
 #sudo make install
+
