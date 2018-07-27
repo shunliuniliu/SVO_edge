@@ -12,7 +12,7 @@
 
 
 
-2. 操作完1; 回到SVO_edge路徑下執行./build.sh
+2. 操作完1; 回到SVO_edge路徑下執行 ./build.sh
 3. 安裝完opencv
 4. 回SVO_edge路徑下執行 mkdir build
 5. cd build

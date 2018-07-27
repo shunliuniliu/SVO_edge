@@ -1,18 +1,15 @@
 
-cd Thirdparty/sophus/
+cd Thirdparty/sophus
 mkdir build
 cd build
 cmake ..
-make -j
-
-
+make -j4
 
 cd ../../g2o
 mkdir build
 cd build
 cmake ..
-make -j
-
+make -j4
 
 
 #cd ../../opencv-2.4.13/

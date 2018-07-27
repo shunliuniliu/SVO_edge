@@ -107,7 +107,7 @@ void BenchmarkNode::runFromFolder()
   vector<string> vstrImageLeft;
   vector<string> vstrImageRight;
   vector<double> vTimeStamp;
-  LoadImages("/home/poiwu/dataset/MH_01/cam0/data", "/home/poiwu/dataset/MH_01//cam1/data", "MH01.txt", vstrImageLeft, vstrImageRight, vTimeStamp);
+  LoadImages("/home/poiwu/dataSet/MH_01/cam0/data", "/home/poiwu/dataSet/MH_01/cam1/data", "MH01.txt", vstrImageLeft, vstrImageRight, vTimeStamp);
 
   if(vstrImageLeft.empty() || vstrImageRight.empty())
   {
